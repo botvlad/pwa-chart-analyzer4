@@ -1,17 +1,18 @@
 {
-  "name": "sveltekit-vercel-test",
+  "name": "sveltekit-vercel-final",
   "version": "1.0.0",
-  "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@sveltejs/adapter-vercel": "4.0.0",
     "@sveltejs/kit": "2.5.10",
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
-    "@sveltejs/adapter-vercel": "^4.0.0",
-    "svelte": "^4.2.0",
+    "svelte": "^4.2.12",
     "vite": "^5.0.3"
-  }
+  },
+  "type": "module"
 }
